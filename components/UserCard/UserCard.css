@@ -1,0 +1,58 @@
+.userCollection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.userBox{
+  width: 280px;
+  margin: 20px 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.userDetailsBox{
+
+}
+.userDetailIcons{
+  margin-right: 5px;
+}
+.userDetail{
+  display: flex;
+  align-items: center;
+}
+.userDetailLink{
+  text-decoration: none;
+  color: #868e96;
+}
+.userDetailLink:hover{
+  text-decoration: underline;
+}
+.buttonBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.followButton{
+  background: #228BE6;
+  color: white;
+  margin-right: 5px;
+}
+.followButton:hover{
+  background: #1d76c4;
+  color: white;
+  margin-right: 5px;
+}
+.deleteButton{
+  color: #228BE6;
+  border: 1px solid #228BE6;
+}
+.deleteButton:hover{
+  color: #228BE6;
+  border: 1px solid #228BE6;
+  background: #f5faff;
+}
+.buttonIcons{
+  margin-right: 5px;
+}
+.starIcon{
+  margin-left: 5px;
+}
